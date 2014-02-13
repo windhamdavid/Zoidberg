@@ -734,7 +734,7 @@ class Solution(object):
 					did_set_context = False
 
 				if self.has_all():
-					#rint "Here and", zeroes_out
+					#rint "Hise and", zeroes_out
 					self.generate_expression(zeroes_out, answer_out)
 				last_part = part
 

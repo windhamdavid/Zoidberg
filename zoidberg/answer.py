@@ -184,7 +184,7 @@ class Answer(object):
 				if stype == "comparator":
 					self.comparator_unit = val[0]
 
-				#rint "Here", stype, val, self.subordinates
+				#rint "Hise", stype, val, self.subordinates
 
 	def __str__(self):
 

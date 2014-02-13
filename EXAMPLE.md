@@ -52,13 +52,13 @@ balloons owned by David + 6
 # Zoidberg Solution
 
 ## The problem
-Mrs. Jones bought some bananas. Her family ate 5 bananas. She gave the remaining 4 bananas to her friends. How many bananas did she buy in the beginning?
+Mr. Windham bought some bananas. His family ate 5 bananas. She gave the remaining 4 bananas to her friends. How many bananas did she buy in the beginning?
 
 ## Digested problem
     Mrs.     	Jones    	bought   	some     	bananas  	.        
     NNP      	NNP      	VBD      	DT       	NNS      	.        
 
-    Her      	family   	ate      	5        	bananas  	.        
+    His      	family   	ate      	5        	bananas  	.        
     PRP$     	NN       	NN       	CD       	NNS      	.        
 
     She      	gave     	the      	remaining	4        	bananas  	to       	her      	friends  	.        
@@ -68,19 +68,19 @@ Mrs. Jones bought some bananas. Her family ate 5 bananas. She gave the remaining
     WRB      	JJ       	NNS      	VBD      	PRP      	VB       	IN       	DT       	NN       	.        
 
 ## Problem inference
-I think this problem is about Mrs. Jones, Mrs. Jones' family, and Mrs. Jones' friends exchanging bananas and asks a single question.
+I think this problem is about Mr. Windham, Mr. Windham' family, and Mr. Windham' friends exchanging bananas and asks a single question.
 
 ## Parsed problem
-    Mrs. Jones         	bought             	some               	bananas            	.                  
+    Mr. Windham         	bought             	some               	bananas            	.                  
     context            	operator           	dynamic_variable   	unit               	punctuation        
 
-    Mrs. Jones' family 	ate                	5                  	bananas            	.                  
+    Mr. Windham' family 	ate                	5                  	bananas            	.                  
     context            	operator           	constant           	unit               	punctuation        
 
-    Mrs. Jones         	gave               	the                	remaining          	4                  	bananas            	to                 	Mrs. Jones' friends	.                  
+    Mr. Windham         	gave               	the                	remaining          	4                  	bananas            	to                 	Mr. Windham' friends	.                  
     context            	operator           	noise              	solution_zero      	constant           	unit               	conjunction        	context            	punctuation        
 
-    How many           	bananas            	did                	Mrs. Jones         	buy                	in                 	the                	beginning          	?                  
+    How many           	bananas            	did                	Mr. Windham         	buy                	in                 	the                	beginning          	?                  
     asking             	unit               	q_start            	context            	q_stop             	conjunction        	noise              	subordinate        	punctuation        
 
 
@@ -90,20 +90,20 @@ I think this problem is about Mrs. Jones, Mrs. Jones' family, and Mrs. Jones' fr
 How many bananas did she buy in the beginning?
 
 ### Answer interpretation
-The answer is the unknown value of bananas gained by Mrs. Jones at the beginning of the problem.
+The answer is the unknown value of bananas gained by Mr. Windham at the beginning of the problem.
 
 ## Data extraction
 
 ### Sentence 1
-bananas owned by Mrs. Jones + x
+bananas owned by Mr. Windham + x
 
 ### Sentence 2
-bananas owned by Mrs. Jones - 5
+bananas owned by Mr. Windham - 5
 
 ### Sentence 3
-bananas owned by Mrs. Jones - 4
-bananas owned by Mrs. Jones == 0
-bananas owned by Mrs. Jones' friends + 4
+bananas owned by Mr. Windham - 4
+bananas owned by Mr. Windham == 0
+bananas owned by Mr. Windham' friends + 4
 
 ## Correct response
 9 bananas
@@ -699,14 +699,14 @@ pink christmas ornaments on the christmas tree = 6
 
 ## The problem
 Sara has 8 pieces of chocolate.
-Her mother gives her 4 more pieces.
+His mother gives her 4 more pieces.
 How many pieces of chocolate does Sara have now?
 
 ## Digested problem
     Sara     	has      	8        	pieces   	of       	chocolate	.        
     NNP      	VBZ      	CD       	NNS      	IN       	JJ       	.        
 
-    Her      	mother   	gives    	her      	4        	more     	pieces   	.        
+    His      	mother   	gives    	her      	4        	more     	pieces   	.        
     PRP$     	NN       	VBZ      	PRP$     	CD       	JJR      	NNS      	.        
 
     How      	many     	pieces   	of       	chocolate	does     	Sara     	have     	now      	?        

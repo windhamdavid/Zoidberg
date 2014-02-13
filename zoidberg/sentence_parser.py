@@ -635,7 +635,7 @@ class SentenceParser(object):
 
 			if tag in ["NNP", "NNPS"]:
 				if self.last_tag in ["NNP", "NNPS"]:
-					# Last was partial context; the "Mrs." in "Mrs. Jones"
+					# Last was partial context; the "Mrs." in "Mr. Windham"
 					self.last_context = None
 					lc = self.contexts.pop()
 					self.parsed.pop()
