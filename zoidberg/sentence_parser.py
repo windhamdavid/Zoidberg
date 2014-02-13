@@ -288,7 +288,7 @@ class SentenceParser(object):
 
 			if tag in ["NN", "NNS"]:
 				if self.last_tag in ["PRP$"]:
-					# Detects Jane's friends; probably context
+					# Detects David's friends; probably context
 					context = " ".join([self.partial_context, word])
 					self.parsed.pop()
 					self.last_context = context

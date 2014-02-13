@@ -2,10 +2,10 @@
 # Zoidberg Solution
 
 ## The problem
-Jane has 14 balloons. She buys another 6 balloons. How many balloons does she have now?
+David has 14 balloons. She buys another 6 balloons. How many balloons does she have now?
 
 ## Digested problem
-    Jane    	has     	14      	balloons	.       
+    David    	has     	14      	balloons	.       
     NNP     	VBZ     	CD      	NNS     	.       
 
     She     	buys    	another 	6       	balloons	.       
@@ -15,16 +15,16 @@ Jane has 14 balloons. She buys another 6 balloons. How many balloons does she ha
     WRB     	JJ      	NNS     	VBZ     	PRP     	VB      	RB      	.       
 
 ## Problem inference
-I think this problem is about Jane getting balloons and asks a single question.
+I think this problem is about David getting balloons and asks a single question.
 
 ## Parsed problem
-    Jane       	has        	14         	balloons   	.          
+    David       	has        	14         	balloons   	.          
     context    	operator   	constant   	unit       	punctuation
 
-    Jane       	buys       	6          	balloons   	.          
+    David       	buys       	6          	balloons   	.          
     context    	operator   	constant   	unit       	punctuation
 
-    How many   	balloons   	does       	Jane       	have       	now        	?          
+    How many   	balloons   	does       	David       	have       	now        	?          
     asking     	unit       	q_start    	context    	q_stop     	subordinate	punctuation
 
 
@@ -34,15 +34,15 @@ I think this problem is about Jane getting balloons and asks a single question.
 How many balloons does she have now?
 
 ### Answer interpretation
-The answer is the unknown value of balloons owned by Jane at the end of the problem.
+The answer is the unknown value of balloons owned by David at the end of the problem.
 
 ## Data extraction
 
 ### Sentence 1
-balloons owned by Jane = 14
+balloons owned by David = 14
 
 ### Sentence 2
-balloons owned by Jane + 6
+balloons owned by David + 6
 
 ## Correct response
 20 balloons

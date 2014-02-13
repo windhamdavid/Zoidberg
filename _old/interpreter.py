@@ -39,9 +39,9 @@ class Interpretation(Thinker):
 		# Problem details
 		self.units = []
 		# A context is used to group pieces of expressions for comparison and
-		# computation. For example "Jane gives Joe 3 apples" requires us to
-		# know how many apples both "Jane" and "Joe" have. In this example,
-		# "Jane" and "Joe" are both contexts which can 'own' some number of
+		# computation. For example "David gives Joe 3 apples" requires us to
+		# know how many apples both "David" and "Joe" have. In this example,
+		# "David" and "Joe" are both contexts which can 'own' some number of
 		# a unit, in this case 'apples'.
 		self.contexts = {}
 

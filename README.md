@@ -58,7 +58,7 @@ Once an expression has been defined, it can be solved. SymPy is used to handle
 expression solving. To the best of its abilities, Zoidberg will attempt to
 respond with a humanized, textual version of the answer.
 
-An ideal solution is "Jane has 6 balloons" instead of "6" or "6 balloons".
+An ideal solution is "David has 6 balloons" instead of "6" or "6 balloons".
 
 ## Learning
 Arguably the most important part of the Zoidberg model is the ability to learn
